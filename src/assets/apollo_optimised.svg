@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlnsdc="http://purl.org/dc/elements/1.1/"
+   xmlnsdc="http://creativecommons.org/ns#"
+   xmlnsrdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlnssvg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="64mm"
+   height="64mm"
+   viewBox="0 0 64 64"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdfRDF>
+      <ccWork
+         rdfabout="">
+        <dcFormat>image/svg+xml</dcFormat>
+        <dcType
+           rdfresource="http://purl.org/dc/dcmitype/StillImage" />
+        <dcTitle></dcTitle>
+      </ccWork>
+    </rdfRDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(-54.42857,-79.375)">
+    <rect
+       style="fill:#209cee;fill-opacity:1;fill-rule:evenodd;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect10"
+       width="64"
+       height="64"
+       x="54.42857"
+       y="79.375"
+       ry="4.2333331" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.6106px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.994;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.59027"
+       x="68.941864"
+       y="131.67262"
+       id="text14"><tspan
+         id="tspan12"
+         x="68.941864"
+         y="131.67262"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.6106px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:1.59027">A</tspan></text>
+  </g>
+</svg>

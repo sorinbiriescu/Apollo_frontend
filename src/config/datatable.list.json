@@ -1,0 +1,97 @@
+[
+    {
+        "datatable_name": "Total dossiers",
+        "api_target": "ticket_flow_datatable",
+        "inter_type": ""
+    },
+    {
+        "datatable_name": "Incidents N1",
+        "api_target": "ticket_flow_datatable",
+        "inter_type": "incident"
+    },
+    {
+        "datatable_name": "Demandes N1",
+        "api_target": "ticket_flow_datatable",
+        "inter_type": "request"
+    },
+    {
+        "datatable_name": "Hotline N1",
+        "api_target": "ticket_flow_datatable",
+        "inter_type": "hotline"
+    },
+    {
+        "datatable_name": "Proxi N1",
+        "api_target": "ticket_flow_datatable",
+        "inter_type": "proxy"
+    },
+    {
+        "datatable_name": "Incidents Hotline N1",
+        "api_target": "ticket_flow_datatable",
+        "inter_type": "incident+hotline"
+    },
+    {
+        "datatable_name": "Incidents Proxi N1",
+        "api_target": "ticket_flow_datatable",
+        "inter_type": "incident+proxy"
+    },
+    {
+        "datatable_name": "Demandes Hotline N1",
+        "api_target": "ticket_flow_datatable",
+        "inter_type": "request+hotline"
+    },
+    {
+        "datatable_name": "Demandes Proxi N1",
+        "api_target": "ticket_flow_datatable",
+        "inter_type": "request+proxy"
+    },
+    {
+        "datatable_name": "Pas classé",
+        "api_target": "ticket_flow_datatable",
+        "inter_type": "unclassified"
+    },
+    {
+        "datatable_name": "Sous observation",
+        "api_target": "ticket_flow_datatable",
+        "inter_type": ""
+    },
+    {
+        "datatable_name": "Suspendu rep. mail pas recontacté",
+        "api_target": "suspended_mail_not_recontacted_datatable",
+        "inter_type": ""
+    },
+    {
+        "datatable_name": "Hotline - Suspendu > 24h",
+        "api_target": "suspended_gt_x_datatable",
+        "inter_type": "hotline"
+    },
+    {
+        "datatable_name": "Proxi - Suspendu > 72h",
+        "api_target": "suspended_gt_x_datatable",
+        "inter_type": "proxy"
+    },
+    {
+        "datatable_name": "Contacté > 3 fois",
+        "api_target": "contacted_x_times_datatable",
+        "inter_type": ""
+    },
+    {
+        "datatable_name": "Securité",
+        "api_target": "security_tickets_datatable",
+        "inter_type": ""
+    },
+    {
+        "datatable_name": "Industriel",
+        "api_target": "industrial_tickets_datatable",
+        "inter_type": ""
+    },
+    {
+        "datatable_name": "VIP",
+        "api_target": "vip_tickets_datatable",
+        "inter_type": ""
+    },
+    {
+        "datatable_name": "Nouveaux arrivants",
+        "api_target": "new_arrivals_datatable",
+        "inter_type": ""
+    }
+]

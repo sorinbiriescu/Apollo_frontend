@@ -1,0 +1,335 @@
+[
+  {
+    "card_name": "Total dossiers",
+    "key": "total_dossiers",
+    "indicator_list": [
+      {
+        "indicator_name": "Total tickets",
+        "api_target": "ticket_flow_indicator"
+      },
+      { "indicator_name": "Total score", "api_target": "ticket_flow_score" }
+    ],
+    "drilldown": "ticket_flow_datatable",
+    "renderer": "Indicator_Total_Score"
+  },
+  {
+    "card_name": "Incidents N1",
+    "key": "total_incidents_n1",
+    "indicator_list": [
+      {
+        "indicator_name": "Total tickets",
+        "api_target": "ticket_flow_indicator",
+        "inter_type": "incident"
+      },
+      {
+        "indicator_name": "Total score",
+        "api_target": "ticket_flow_score",
+        "inter_type": "incident"
+      }
+    ],
+    "drilldown": "ticket_flow_datatable",
+    "renderer": "Indicator_Total_Score"
+  },
+  {
+    "card_name": "Demandes N1",
+    "key": "total_demandes_n1",
+    "indicator_list": [
+      {
+        "indicator_name": "Total tickets",
+        "api_target": "ticket_flow_indicator",
+        "inter_type": "request"
+      },
+      {
+        "indicator_name": "Total score",
+        "api_target": "ticket_flow_score",
+        "inter_type": "request"
+      }
+    ],
+    "drilldown": "ticket_flow_datatable",
+    "renderer": "Indicator_Total_Score"
+  },
+  {
+    "card_name": "Hotline N1",
+    "key": "total_hotline_n1",
+    "indicator_list": [
+      {
+        "indicator_name": "Total tickets",
+        "api_target": "ticket_flow_indicator",
+        "inter_type": "hotline"
+      },
+      {
+        "indicator_name": "Total score",
+        "api_target": "ticket_flow_score",
+        "inter_type": "hotline"
+      }
+    ],
+    "drilldown": "ticket_flow_datatable",
+    "renderer": "Indicator_Total_Score"
+  },
+  {
+    "card_name": "Proxi N1",
+    "key": "total_proxy_n1",
+    "indicator_list": [
+      {
+        "indicator_name": "Total tickets",
+        "api_target": "ticket_flow_indicator",
+        "inter_type": "proxy"
+      },
+      {
+        "indicator_name": "Total score",
+        "api_target": "ticket_flow_score",
+        "inter_type": "proxy"
+      }
+    ],
+    "drilldown": "ticket_flow_datatable",
+    "renderer": "Indicator_Total_Score"
+  },
+  {
+    "card_name": "Inc. Hotline N1",
+    "key": "total_incidents_hotline_n1",
+    "indicator_list": [
+      {
+        "indicator_name": "Total tickets",
+        "api_target": "ticket_flow_indicator",
+        "inter_type": "incident+hotline"
+      },
+      {
+        "indicator_name": "Total score",
+        "api_target": "ticket_flow_score",
+        "inter_type": "incident+hotline"
+      }
+    ],
+    "drilldown": "ticket_flow_datatable",
+    "renderer": "Indicator_Total_Score"
+  },
+  {
+    "card_name": "Inc. Proxi N1",
+    "key": "total_incidents_proxi_n1",
+    "indicator_list": [
+      {
+        "indicator_name": "Total tickets",
+        "api_target": "ticket_flow_indicator",
+        "inter_type": "incident+proxy"
+      },
+      {
+        "indicator_name": "Total score",
+        "api_target": "ticket_flow_score",
+        "inter_type": "incident+proxy"
+      }
+    ],
+    "drilldown": "ticket_flow_datatable",
+    "renderer": "Indicator_Total_Score"
+  },
+  {
+    "card_name": "Dem. Hotline N1",
+    "key": "total_requests_hotline_n1",
+    "indicator_list": [
+      {
+        "indicator_name": "Total tickets",
+        "api_target": "ticket_flow_indicator",
+        "inter_type": "request+hotline"
+      },
+      {
+        "indicator_name": "Total score",
+        "api_target": "ticket_flow_score",
+        "inter_type": "request+hotline"
+      }
+    ],
+    "drilldown": "ticket_flow_datatable",
+    "renderer": "Indicator_Total_Score"
+  },
+  {
+    "card_name": "Dem. Proxi N1",
+    "key": "total_requests_proxi_n1",
+    "indicator_list": [
+      {
+        "indicator_name": "Total tickets",
+        "api_target": "ticket_flow_indicator",
+        "inter_type": "request+proxy"
+      },
+      {
+        "indicator_name": "Total score",
+        "api_target": "ticket_flow_score",
+        "inter_type": "request+proxy"
+      }
+    ],
+    "drilldown": "ticket_flow_datatable",
+    "renderer": "Indicator_Total_Score"
+  },
+  {
+    "card_name": "Pas classé",
+    "key": "not_classified_tickets",
+    "indicator_list": [
+      {
+        "indicator_name": "Total tickets",
+        "api_target": "ticket_flow_indicator",
+        "inter_type": "unclassified"
+      },
+      {
+        "indicator_name": "Total score",
+        "api_target": "ticket_flow_score",
+        "inter_type": "unclassified"
+      }
+    ],
+    "drilldown": "ticket_flow_datatable",
+    "renderer": "Indicator_Total_Score"
+  },
+  {
+    "card_name": "Sous observation",
+    "key": "under_observation_indicator",
+    "indicator_list": [
+      {
+        "indicator_name": "Total tickets",
+        "api_target": "under_observation_tickets_indicator"
+      }
+    ],
+    "drilldown": "under_observation_tickets_datatable",
+    "renderer": "Indicator_Total"
+  },
+  {
+    "card_name": "Dossiers arrivant à l'écheance (T)",
+    "key": "tickets_to_expire_table",
+    "indicator_list": [
+      {
+        "indicator_name": "Dossiers arrivant à l'écheance2",
+        "api_target": "tickets_by_expiration_table"
+      }
+    ],
+    "drilldown": "",
+    "renderer": "Requests_Expiration_Table"
+  },
+  {
+    "card_name": "Total dossiers / score par tech (T)",
+    "key": "total_tickets_score_by_tech_table",
+    "indicator_list": [
+      {
+        "indicator_name": "Total dossiers / score par tech",
+        "api_target": "technician_total_tickets_table"
+      }
+    ],
+    "drilldown": "",
+    "renderer": "Total_Requests_By_Tech_Table"
+  },
+  {
+    "card_name": "Suspendu reponse mail pas recontacté (T)",
+    "key": "suspended_mail_not_recontacted_table",
+    "indicator_list": [
+      {
+        "indicator_name": "Suspendu reponse mail en retard",
+        "api_target": "suspended_mail_not_recontacted_table"
+      }
+    ],
+    "drilldown": "suspended_mail_not_recontacted_datatable",
+    "renderer": "Suspended_Not_Recontacted_Table"
+  },
+  {
+    "card_name": "Suspendu rep. mail pas recontacté",
+    "key": "suspended_mail_not_recontacted_indicator",
+    "indicator_list": [
+      {
+        "indicator_name": "Total tickets",
+        "api_target": "suspended_mail_not_recontacted_indicator"
+      }
+    ],
+    "drilldown": "suspended_mail_not_recontacted_datatable",
+    "renderer": "Indicator_Total"
+  },
+  {
+    "card_name": "Hotline - Suspendu > 24h",
+    "key": "hotline_suspended_gt_x_indicator",
+    "indicator_list": [
+      {
+        "indicator_name": "Total tickets",
+        "api_target": "suspended_gt_x_indicator",
+        "inter_type": "hotline"
+      }
+    ],
+    "drilldown": "suspended_gt_x_datatable",
+    "renderer": "Indicator_Total"
+  },
+  {
+    "card_name": "Proxi - Suspendu > 72h",
+    "key": "proxi_suspended_gt_x_indicator",
+    "indicator_list": [
+      {
+        "indicator_name": "Total tickets",
+        "api_target": "suspended_gt_x_indicator",
+        "inter_type": "proxy"
+      }
+    ],
+    "drilldown": "suspended_gt_x_datatable",
+    "renderer": "Indicator_Total"
+  },
+  {
+    "card_name": "Contacté > 3 fois",
+    "key": "contacted_x_times_indicator",
+    "indicator_list": [
+      {
+        "indicator_name": "Total tickets",
+        "api_target": "contacted_x_times_indicator"
+      }
+    ],
+    "drilldown": "contacted_x_times_datatable",
+    "renderer": "Indicator_Total"
+  },
+  {
+    "card_name": "Dossiers non suspendus",
+    "key": "not_suspended_incidents_indicator",
+    "indicator_list": [
+      {
+        "indicator_name": "Total tickets",
+        "api_target": "not_suspended_incidents_indicator"
+      }
+    ],
+    "drilldown": "not_suspended_incidents_datatable",
+    "renderer": "Indicator_Total"
+  },
+  {
+    "card_name": "Securité",
+    "key": "security_tickets_total_indicator",
+    "indicator_list": [
+      {
+        "indicator_name": "Total tickets",
+        "api_target": "security_tickets_total_indicator"
+      }
+    ],
+    "drilldown": "security_tickets_datatable",
+    "renderer": "Indicator_Total"
+  },
+  {
+    "card_name": "Industriel",
+    "key": "industrial_tickets_total_indicator",
+    "indicator_list": [
+      {
+        "indicator_name": "Total tickets",
+        "api_target": "industrial_tickets_total_indicator"
+      }
+    ],
+    "drilldown": "industrial_tickets_datatable",
+    "renderer": "Indicator_Total"
+  },
+  {
+    "card_name": "VIP",
+    "key": "total_vip",
+    "indicator_list": [
+      {
+        "indicator_name": "Total tickets",
+        "api_target": "vip_tickets_total_indicator"
+      }
+    ],
+    "drilldown": "vip_tickets_datatable",
+    "renderer": "Indicator_Total"
+  },
+  {
+    "card_name": "Nouveaux arrivants",
+    "key": "new_arrivals",
+    "indicator_list": [
+      {
+        "indicator_name": "Total tickets",
+        "api_target": "new_arrivals_datatable_indicator"
+      }
+    ],
+    "drilldown": "new_arrivals_datatable",
+    "renderer": "Indicator_Total"
+  }
+]
